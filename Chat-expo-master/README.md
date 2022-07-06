@@ -1,12 +1,12 @@
 <h1> Chat App Project: </h1>
 
-<p>This project was made to build a chat app for mobile devices using React Native. This app will provide users with a chat interface and options to share images and their location. </p>
+<p>Este projeto foi feito para construir um aplicativo de bate-papo para dispositivos móveis usando React Native. Este aplicativo fornecerá aos usuários uma interface de bate-papo e opções para compartilhar imagens e sua localização. </p>
 
-<h2> Description: </h2>
+<h2> Descrição: </h2>
 
-<p> This project includes the use of React Native, Expo, and a Google Firestore Database. A user will be able to enter their name and choose a background color before enterting the chat. The user will also be able to send message, photos, and share geolocation once inside the chat application.  
+<p> Este projeto inclui o uso de React Native, Expo e um banco de dados do Google Firestore. Um usuário poderá inserir seu nome e escolher uma cor de fundo antes de entrar no bate-papo. O usuário também poderá enviar mensagens, fotos e compartilhar geolocalização uma vez dentro do aplicativo de bate-papo.  
   
-<h2> Installs & Libraries: </h2>
+<h2> Instalações e bibliotecas: </h2>
 
 <p> npm install --save react-navigation, npm install @react-navigation/native @react-navigation/stack, expo install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view <p>
   <p> npm install react-native-svg <p>
@@ -26,7 +26,7 @@
 
 <p> npm install --save firebase <p>
 
-<p> After initial setup, go to "Storage" under Project overview. Then go to "Rules." Under Rules click on "Edit Rules" and change the rules to...
+<p> Após a configuração inicial, vá para "Armazenamento" em Visão geral do projeto. Em seguida, vá para "Regras". Em Regras, clique em "Editar regras" e altere as regras para...
   service firebase.storage {
   match /b/{bucket}/o {
   match /{allPaths=**} {
@@ -35,6 +35,5 @@
   }
   }
   
-<h2> Sample Video: </h2>
+<h2> Feito Por: Matheus Gonçalves </h2>
 
-![Recording 2022-05-03 at 12 06 56](https://user-images.githubusercontent.com/89669426/174530419-eb5939af-0232-4ab7-8217-9536ed107249.gif)
