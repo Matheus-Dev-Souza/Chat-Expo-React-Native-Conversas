@@ -1,0 +1,98 @@
+
+/* this is a clone copy of the App.js lesson in 5.1 for practicing
+ 
+import React, {Component} from 'react';
+import { StyleSheet, Text, TextInput, View, ScrollView, Button, Alert } from 'react-native';
+
+export default class HelloWorld extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { text: ''};
+  }
+
+
+  render() {
+    return (
+      <View style={{flex: 1, justifyContent: 'center'}}>
+        <TextInput
+           style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+           onChangeText={(text) => this.setState({text})}
+           value={this.state.text}
+           placeholder='Type here ...'/>
+        <Text>You wrote: {this.state.text}</Text>
+        <Button onPress={() => {
+          this.alertMyText({text: this.state.text});
+        }}
+      title="Press Me"/>
+      </View>
+
+    // <View style={styles.container}>
+    //   <View style={styles.box1}>Hello World</View>
+    //   <View style={styles.box2}>How are you?</View>
+    //   <View style={styles.box3}>I'm feeling blue</View>
+    // </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+
+//   blue: {
+//     color: 'blue',
+//     fontWeight: '600',
+// },
+
+//   bigRed: {
+//     color: 'red',
+//     fontSize: 30,
+// },
+
+//   container: {
+//     flex: 1,
+//     flexDirection: 'column'
+//   },
+//   box1: {
+//     flex:50,
+//     backgroundColor: 'blue'
+//   },
+//   box2: {
+//     flex:100,
+//     backgroundColor: 'red'
+//   },
+//   box3: {
+//     flex: 50,
+//     backgroundColor: 'green'
+//   }
+// });
+
+// import React, { Component } from 'react';
+// import { StyleSheet, View, Text, TextInput, Alert, Button } from 'react-native';
+
+// export default class App extends React.Component {
+//  constructor(props) {
+//    super(props);
+//    this.state = { text: '' };
+//  }
+
+//  alertMyText(input = []) {
+//    Alert.alert(input.text);
+//  }
+
+//  render() {
+//    return (
+//      <View style={{flex:1, justifyContent:'center'}}>
+//        <TextInput
+//          style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+//          onChangeText={(text) => this.setState({text})}
+//          value={this.state.text}
+//          placeholder='Type here ...'
+//        />
+//        <Text> You wrote: {this.state.text}</Text>
+//        <Button onPress={() => {
+//          this.alertMyText({text: this.state.text});
+//        }}
+//        title="Press Me" />
+//      </View>
+//    );
+//  }
+// } */
